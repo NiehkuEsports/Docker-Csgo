@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y curl lib32gcc1 && apt-get clean && rm -
 
 RUN mkdir -p /opt/steamcmd &&\
     cd /opt/steamcmd &&\
-    curl -s https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz | tar -vxz
+    curl -s http://media.steampowered.com/client/steamcmd_linux.tar.gz | tar -zxvf
 
 VOLUME /opt/steamcmd/csgo
 
