@@ -12,6 +12,8 @@ VOLUME /opt/steamcmd/csgo
 
 WORKDIR /opt/steamcmd/csgo
 
+EXPOSE 27015 27015/udp 27020/udp
+
 COPY docker-entrypoint.sh /usr/local/bin/
 
 ENTRYPOINT ["docker-entrypoint.sh"]
