@@ -10,7 +10,12 @@ if [ ! -f /opt/steamcmd/csgo/finish ]; then
 fi
 cd /opt/steamcmd/csgo
 
-export LD_LIBRARY_PATH=/opt/steamcmd/csgo:/opt/steamcmd/csgo/bin:{$LD_LIBRARY_PATH}
-mkdir -p ~/.steam/sdk32/
-chmod 750 -R ~/.steam/
-ln -s /opt/steamcmd/linux32/steamclient.so ~/.steam/sdk32/
+if [ -f "~/.steam/sdk32/steamclient.so" ];
+then
+    echo "~/.steam/sdk32/steamclient.so already exists"
+else
+    export LD_LIBRARY_PATH=/opt/steamcmd/csgo:/opt/steamcmd/csgo/bin:{$LD_LIBRARY_PATH}
+    mkdir -p ~/.steam/sdk32/
+    chmod 750 -R ~/.steam/
+    ln -s /opt/steamcmd/linux32/steamclient.so ~/.steam/sdk32/
+fi
