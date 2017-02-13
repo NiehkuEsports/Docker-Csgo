@@ -4,7 +4,12 @@
 <img src="http://images.akamai.steamusercontent.com/ugc/436071756793745820/123339BCA40E64C37B0C60B56DBE3C869FCE084E/" width="500" height="150">
 
 
-## Installation
+## 0.1.1(14.02.2017)
+Contains:
+ *Steamcmd and preinstalled CS:GO server
+ *Gamer.no config
+ *ESL 5on5, 4on4, 3on3, 2on2, 1on1 configs
+ *Warmup and practice config
 ```
 $ docker pull Niehku/Docker-Csgo
 ```
