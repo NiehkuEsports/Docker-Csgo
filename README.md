@@ -5,11 +5,15 @@
 
 
 ## Installation
+```
+$ docker pull Niehku/Docker-Csgo
+```
 
 ## How to start:
+Environment arguments can be changed to whatever user wishes them to be.
 ```
-$ docker run -e GAME_TYPE=0 -e GAME_MODE=1 MAPGROUP=mg_bomb -e MAP=de_dust2 RCON_PASSOWRD=niehku.no -p 27015:27015 -p 27015:27015/udp -p1234:22 -d Ailol/docker-csgo
+$ docker run -e GAME_TYPE=0 -e GAME_MODE=1 MAPGROUP=mg_bomb -e MAP=de_dust2 RCON_PASSOWORD=niehku.no -p 27015:27015 -p 27015:27015/udp -p1234:22 -d NiehkuEsports/Docker-Csgo
 ```
 
-<img src="https://cloud.githubusercontent.com/assets/21117646/22907396/2f88c52c-f249-11e6-82a8-ff6bba3d1c23.png" width="100">
+<img src="https://cloud.githubusercontent.com/assets/21117646/22907396/2f88c52c-f249-11e6-82a8-ff6bba3d1c23.png" width="50" height="50">
 
