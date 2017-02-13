@@ -15,9 +15,9 @@ if [ ! -f /opt/steamcmd/csgo/finish ]; then
 	mkdir -p ~/.steam/sdk32/
 	chmod 750 -R ~/.steam/
 
-	ln -s /opt/steamcmd/linux32/steamclinet.so ~/.steam/sdk32/
+	ln -s /opt/steamcmd/linux32/steamclient.so ~/.steam/sdk32/
 
-cd /opt/csgo && ./srcds_run -game csgo -console -usercon +game_type $GAME_TYPE \
+cd /opt/steamcmd/csgo && ./srcds_run -game csgo -console -usercon +game_type $GAME_TYPE \
 								+game_mode $GAME_MODE\
 								+mapgroup $MAPGROUP \
 								+map $MAP $STARTUP_OPTIONS \
