@@ -1,4 +1,4 @@
-# **CSGO container for docker!**
+# **CSGO container**
 
 
 <img src="http://images.akamai.steamusercontent.com/ugc/436071756793745820/123339BCA40E64C37B0C60B56DBE3C869FCE084E/" width="500" height="150">
