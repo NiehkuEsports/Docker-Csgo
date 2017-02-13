@@ -5,11 +5,11 @@
 
 
 ## 0.1.1(14.02.2017)
-Contains:
- *Steamcmd and preinstalled CS:GO server
- *Gamer.no config
- *ESL 5on5, 4on4, 3on3, 2on2, 1on1 configs
- *Warmup and practice config
+-Contains:
+  *Steamcmd and preinstalled CS:GO server
+  *Gamer.no config
+  *ESL 5on5, 4on4, 3on3, 2on2, 1on1 configs
+  *Warmup and practice config
 ```
 $ docker pull Niehku/Docker-Csgo
 ```
